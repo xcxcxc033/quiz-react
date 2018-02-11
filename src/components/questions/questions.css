@@ -1,0 +1,31 @@
+.options-selected {
+    background: green
+}
+
+.question {
+    color: azure;
+    margin: 20px;
+    height: 65px;
+}
+
+.final-panel {
+    /* width: 50%; */
+    margin: 20% auto;
+    width: 500px;
+    height: 300px;
+    /* width: 300px; */
+    border-radius: 50px;
+    border: 1;
+    background-color: aquamarine;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(121, 117, 117, 0.19);
+    text-align: center;
+    padding: 45px;
+    background: linear-gradient(#003973, #e5e5be);
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+h1 {
+    color: aliceblue;
+}

@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.startComponent {
+    margin: 5% auto;
+    width: 350px;
+    border: 3px solid green;
+    padding: 10px;
+    height:600px;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(122, 112, 112, 0.19);
+    text-align: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.btn {
+  margin-top: 30%;
+  /* margin: auto; */
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.start-title {
+  font-size: 50px;
+  
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 30px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 10px;
+}

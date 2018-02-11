@@ -1,0 +1,79 @@
+.disabled-btn {
+    /* display: block; */
+    
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    opacity : 0;
+}
+
+
+.btn-next {
+    /* display: inline-block; */
+    border-radius: 30px;
+    background-color: #0c973a;
+    border: 1;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    /* padding-right: -20px; */
+    float: right;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .btn-next:hover {background-color: #1d5e20}
+
+  .btn-next:active {
+    background-color: #c7ddc8;
+    box-shadow: 0 5px #666;
+  }
+
+  .btn-pre {
+    /* display: inline-block; */
+    border-radius: 30px;
+    background-color: #0c973a;
+    border: 1;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    /* padding-right: -20px; */
+    float: right;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .btn-pre:hover {background-color: #1d5e20}
+
+  .btn-pre:active {
+    background-color: #c7ddc8;
+    box-shadow: 0 5px #666;
+  }
+
+
+
+.container {
+    margin-top: 80px;
+    height: 600px;
+    width: 50%;
+    background: linear-gradient(#085078, #85d8ce);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.left-span {
+    position:relative;
+    float:left;
+}
+
+.right-span {
+    position:relative;
+    float: right;
+}
